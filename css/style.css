@@ -4,6 +4,7 @@ body {
     color: white;
     min-height: 100vh;
     display: grid;
+    grid-gap: 1em;
     grid-template-rows: auto; auto; auto; auto; 
 }
 
