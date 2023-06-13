@@ -5,7 +5,11 @@ body {
     min-height: 100vh;
     display: grid;
     grid-gap: 1em;
-    grid-template-rows: auto auto auto auto; 
+    grid-template-areas:
+    'header header'
+    'main aside'
+    'footer footer'
+    ;
 }
 
 
@@ -26,3 +30,8 @@ footer {
     background-color: white;
     
 }
+
+header{grid-area: header;}
+main{grid-area: main;}
+aside{grid-area: aside;}
+footer{grid-area: footer;}
