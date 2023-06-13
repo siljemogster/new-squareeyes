@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: auto; auto; auto; auto; 
+}
+
+
+
+header {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+aside {
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+    
+}
