@@ -13,11 +13,14 @@ body {
     ;
 }
 
+nav {
 
+}
 
 header {
     background-color: white;
     color: black;
+    text-align: center;
 }
 
 main {
@@ -31,8 +34,8 @@ aside {
 }
 
 footer {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
     
 }
