@@ -13,13 +13,34 @@ body {
     ;
 }
 
-nav {
+header {
+   
+}
+
+nav,
+#menu-checkbox {
+    background: black;
+    color: white;
+    
+}
+a {
+    color: white;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 10px 80px;
+    font-size: 1rem;
 
 }
 
-header {
-    background-color: black;
-    color: white;
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
