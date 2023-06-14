@@ -44,14 +44,32 @@ nav a:hover {
 }
 
 main {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
 }
 
+.positioned {
+    text-align: center;
+    
+ }
+
+ .buttonabout {
+    background: #ef952b;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: solid;
+    text-align: center;
+    text-transform: uppercase;
+
+ }
+
 aside {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 footer {
@@ -65,3 +83,4 @@ header{grid-area: header;}
 main{grid-area: main;}
 aside{grid-area: aside;}
 footer{grid-area: footer;}
+
