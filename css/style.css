@@ -72,6 +72,30 @@ aside {
     text-align: center;
 }
 
+.box1 {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.box2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.box3 {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.ordersummary {
+    background: white;
+    color: black;
+    text-align: left;
+}
+
 footer {
     background-color: black;
     color: white;
@@ -83,4 +107,3 @@ header{grid-area: header;}
 main{grid-area: main;}
 aside{grid-area: aside;}
 footer{grid-area: footer;}
-
