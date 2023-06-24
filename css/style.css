@@ -242,7 +242,7 @@ main {
     min-height: 50vh;
     grid-gap: 0.5em;
     padding: 100px;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 70%;
     position: relative;
 
@@ -366,6 +366,28 @@ main {
     color: black;
     text-align: left;
     padding: 20px; 
+}
+
+.totalprice {
+    text-align: left;    
+    
+}
+
+.p2 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cobutton {
+    background: rgb(38, 193, 38);
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    display: inline-block;
+    margin: 6px;
+    text-decoration: solid; 
+    text-transform: uppercase;
+
 }
 
 footer {

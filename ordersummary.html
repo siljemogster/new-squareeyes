@@ -15,25 +15,102 @@
         <section>
             <h1>Order Summary</h1>
         </section>
-        <section class="grid1">
-            <box1 class="ordersummary">
-                <p>Once Upon a Time in Hollywood</p>
-                <p>High Heat</p>
-                <p>The Takeover</p>
-            </box1>
+        <section>
+            <div class="ordersummary">
+                <box1 class="grid1">
+                    <div>
+                        <img src="images/movies/hollywood.jpg" height="30%" width="30%" alt="Once Upon a Time in Hollywood the Movie">
+                    </div>
+                    <section>
+                        <div>
+                            <p class="p2">Once Upon a Time in Hollywood</p>
+                            <p>Art.nr. 1190445</p>
+                            <p>Qty: 1</p>
+                        </div>
+                       
+                        <div>
+                            <img src="images/movies/highheat.jpg" heigh="30%" width="30%" alt="Hight Heat the Movie">
+                        </div>
+                        <div>
+                            <img src="images/movies/thetakeover.jpg" heigh="30%" width="30%" alt="The Takeover Movie">
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            <p class="p2">Once Upon a Time in Hollywood</p>
+                        </div>
+                        <div>
+                            <p>Art.nr. 1190445</p>
+                        </div>  
+                        <div>
+                            <p>Qty: 1</p>
+                        </div>  
+                    </section>
+                    
+                
+
+                    <div>
+                        <p class="p2">High Heat</p>
+                        <p>Art. nr. 1012244</p>
+                        <p>Qty: 1</p>
+                    </div>
+                    <div>
+                        <p class="p2">The Takeover</p>
+                        <p>Art.nr. 1030287</p>
+                        <p>Qty: 1</p>
+                    </div>
+                    <div>
+                        <p class="p2">$26</p>
+                    </div>
+                    <div>
+                        <p class="p2">$30</p>
+                    </div>
+                    <div>
+                        <p class="p2">$22</p>
+                    </div>
+                </box1>
+            </div>
         </section>
         <section class="grid2">
-            <box2 class="ordersummary">
-                <p>Order</p>
-                <p>Shipping</p>
-                <p>_____________________________________________</p>
-                <p>Total price</p>
-            </box2>
+            <div class="ordersummary">
+                <box2 class="totalprice">
+                    <p>Order</p>
+                    <p>Shipping</p>
+                    <p>_____________________________________________</p>
+                    <p class="p2">Total price</p>
+                </box2>
+
+            </div>
         </section>
         <section class="grid3">
-            <box3 class="ordersummary">
-                <h2>Credit- or debit card</h2>
-            </box3>
+            <div class="ordersummary">
+                <box3 class="form">
+                    <h4>Credit- or debit card</h4>
+                    <form action="form-success.php" method="POST"></form>
+                    <fieldset>
+                    <section>
+                        <label for="text">CARD HOLDER'S NAME</label>
+                        <input type="CARD" name="name" id="name" class="form_input" required>
+                    </section>
+                    <section>
+                        <label for="CARD">CARD NUMBER</label>
+                        <input type="CARD" name="name" id="name" class="form_input" required>
+                    </section>
+                    <section>
+                        <label for="CARD">MM/DD</label>
+                        <input type="CARD" name="phone" id="phone" class="form_input" required>
+                        <label for="CARD">CVC</label>
+                        <input type="CARD" name="email" id="email" class="form_input" required>
+                    </fieldset>
+                    <div>
+                        <a href="checkout.html" class="cobutton">Buy now</a>
+                    </div>
+                    <div>
+                        <img src="images/icons/visamc-01.jpg" heigh="10%" width="10%" alt="Visa and Mastercard Logo">
+                    </div>    
+                    </section>  
+                </box3>
+            </div>
         </section>
     </main>    
     <footer>
