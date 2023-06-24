@@ -217,11 +217,6 @@ main {
 
  }
 
-.aside {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
 
 .below {
     background-color: black;
@@ -239,22 +234,22 @@ main {
 
 .grid1 {
     display: grid;
-    min-height: 50vh;
-    grid-gap: 0.5em;
+    min-height: 10vh;
+    grid-gap: 1em;
     padding: 100px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 70%;
     position: relative;
 
 
 }
 
+
 .grid2 {
     display: grid;
     min-height: 50vh;
-    grid-gap: 0.5em;
+    grid-gap: 1em;
     padding: 100px;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 70%;
     position: relative;
 
@@ -264,7 +259,7 @@ main {
 .grid3 {
     display: grid;
     min-height: 50vh;
-    grid-gap: 0.5em;
+    grid-gap: 1em;
     padding: 100px;
     grid-template-rows: 1fr;
     width: 70%;
@@ -365,12 +360,42 @@ main {
     background: white;
     color: black;
     text-align: left;
-    padding: 20px; 
+    padding: 50px; 
+    width: 70%;
+    align-items: center;
+    position: relative; 
+    
 }
 
+
 .totalprice {
-    text-align: left;    
+    text-align: left;
+    padding-left: 100px; 
+    padding-right: 100px; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;  
     
+}
+
+.rightprice {
+    text-align: right;
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
+
+}
+
+.form {
+
+    background: white; 
+    color: black; 
+    padding: 90px; 
+    width: 70%; 
+    position: relative; 
+
 }
 
 .p2 {
