@@ -26,7 +26,7 @@ header {
 .logo {
    width: 10%;
    height: 5%; 
-   position: relative; 
+   position: static; 
 }
 
 h3 { 
@@ -139,6 +139,12 @@ nav ul {
     .container-nav-bar {
         display: relative;
          
+    }
+
+    .item { 
+        position: flex; 
+    
+
     }
 }
 
