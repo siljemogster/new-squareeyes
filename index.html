@@ -4,31 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <img src="images/logo/SquareEyeslogo.png" alt="Logo Square Eyes" width="96" height="54">
+        <div class="container-nav-bar">
+            <img src="images/logo/SquareEyeslogo.png" class=logo alt="Logo Square Eyes">
             <input type="checkbox" id="menu-checkbox">
             <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="movies.html">Movies</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul class="navbar">
+                <li><a class="link" href="index.html">Home</a></li>
+                <li><a class="link" href="movies.html">Movies</a></li>
+                <li><a class="link" href="about.html">About</a></li>
+                <li><a class="link" href="contact.html">Contact</a></li>
+                <li><a class="link" href="ordersummary.html" class="shopping"><img src="images/icons/shoppingbagicon-01.png" height="50px" width="50px" alt="icon shoppping cart"></a></li>
             </ul>
         </nav>
-        <div>
-            <a href="ordersummary.html" class="shopping"><img src="images/icons/shoppingbagicon-01.png" height="50px" width="50px" alt="icon shoppping cart"></a>
         </div>
     </header>
     <main>
         <h1>Stream All of Your Favorite Movies in One Place</h1>
-    </main>
-    <aside>
-        <img src="images/others/homepagebackground.png" alt="background images of movie" style="width: 100%;">
+        <div class="movie-container">
+        <img src="images/others/homepagebackground.png" class="backgroundimage" alt="background images of movie">
         <div class="text-image">    
             <h2>Once Upon a Time in Hollywood (2019)</h2>
             <p>Quentin Tarantino's Once Upon a Time... in Hollywood visits 1969 Los Angeles, where everything is changing, as TV star Rick Dalton (Leonardo DiCaprio) and his longtime stunt double Cliff Booth (Brad Pitt) make their way around an industry they hardly recognize anymore.</p>
@@ -38,6 +37,10 @@
             <a href="movies.html" class="button2">Watch trailer</a>
             <a href="movies.html" class="button2">More info</a>
         </div>
+        </div>
+    
+    </main>
+    <aside>
         <section>
             <div>
                 <h2 class="below">New Movies</h2>
@@ -45,19 +48,19 @@
         </section>
         <section class="allmoviesgrid">
             <div class="item floated">
-                <img src="images/movies/zombie3.jpg" height=50% width="100%" alt="Zombie 3 Movie">
+                <img src="images/movies/zombie3.jpg" class="sizeimages" alt="Zombie 3 Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/bullet.jpg" height="50%" width="100%" alt="Bullet Movie">
+                <img src="images/movies/bullet.jpg" class="sizeimages" alt="Bullet Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/ivybean.jpg" height="50%" width="100%" alt="Ivy plus Bean Movie">
+                <img src="images/movies/ivybean.jpg" class="sizeimages" alt="Ivy plus Bean Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/minionsandmore.jpg" height="50%" width="100%" alt="Minions and more Movie">
+                <img src="images/movies/minionsandmore.jpg" class="sizeimages" alt="Minions and more Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/toystory4.jpg" height="50%" width="100%" alt="Toy Story 4 Movie">
+                <img src="images/movies/toystory4.jpg" class="sizeimages" alt="Toy Story 4 Movie">
             </div>
         </section>
         <section>
@@ -70,19 +73,19 @@
         </section>
         <section class="allmoviesgrid">
             <div class="item floated">
-                <img src="images/movies/bullet.jpg" height="50%" width="100%" alt="Hex Movie">
+                <img src="images/movies/bullet.jpg" class="sizeimages" alt="Hex Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/ripd2.jpg" height="50%" width="100%" alt="RipD2 Movie">
+                <img src="images/movies/ripd2.jpg" class="sizeimages" alt="RipD2 Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/thetakeover.jpg" height="50%" width="100%" alt="The take over Movie">
+                <img src="images/movies/thetakeover.jpg" class="sizeimages" alt="The take over Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/detectiverogue.jpg" height="50%" width="100%" alt="Detective Knight Rogue Movie">
+                <img src="images/movies/detectiverogue.jpg" class="sizeimages" alt="Detective Knight Rogue Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/highheat.jpg" height="50%" width="100%" alt="High Heat Movie">
+                <img src="images/movies/highheat.jpg" class="sizeimages" alt="High Heat Movie">
             </div>
         </section>
         <section>
@@ -97,19 +100,19 @@
         </section>
         <section class="allmoviesgrid">
             <div class="item floated">
-                <img src="images/movies/hollywood.jpg" height="50%" width="100%" alt="Once Upon a Time in Hollywood Movie">    
+                <img src="images/movies/hollywood.jpg" class="sizeimages" alt="Once Upon a Time in Hollywood Movie">    
             </div>
             <div class="item floated">
-                <img src="images/movies/themenu.jpg" height="50%" width="100%" alt="The menu Movie">
+                <img src="images/movies/themenu.jpg" class="sizeimages" alt="The menu Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/thegreatest.jpg" height="50%" width="100%" alt="The Greatest Beer Run Ever Movie">
+                <img src="images/movies/thegreatest.jpg" class="sizeimages" alt="The Greatest Beer Run Ever Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/ivybean.jpg" height="50%" width="100%" alt="Mack and Rita the Movie">
+                <img src="images/movies/ivybean.jpg" class="sizeimages" alt="Mack and Rita the Movie">
             </div>
             <div class="item floated">
-                <img src="images/movies/rodrick.jpg" height="50%" width="100%" alt="Rodrick Rules Movie">
+                <img src="images/movies/rodrick.jpg" class="sizeimages" alt="Rodrick Rules Movie">
             </div>
         </section>
         <section>
@@ -118,13 +121,13 @@
     </aside>    
     <footer>
         <a href="https://www.facebook.com" target="_blank">
-            <img src="/images/icons/facebookiconwhite-01.png" height="50px" width="50px" alt="facebook">
+            <img src="/images/icons/facebookiconwhite-01.png" class=position-some-icons alt="facebook">
         </a>
         <a href="https://www.instagram.com/" target="_blank">
-            <img src="/images/icons/instagramwhite-01.png" height="50px" width="50px" alt="instagram">
+            <img src="/images/icons/instagramwhite-01.png" class=position-some-icons alt="instagram">
         </a>
         <a href="https://twitter.com/" target="_blank">
-            <img src="/images/icons/twitterwhiteicon-01.png" height="50px" width="50px" alt="twitter">
+            <img src="/images/icons/twitterwhiteicon-01.png" class=position-some-icons alt="twitter">
         </a>   
         <section>
             Copyright 2023 Square Eyes &copy;
