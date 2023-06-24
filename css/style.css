@@ -151,8 +151,24 @@ main {
 .positioned {
     text-align: center;
     position: relative;
+
+}
+
+.aboutgrid {
+    grid-template-columns: 1fr;
+    position: relative; 
+    padding-left: 500px; 
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: flex;
+
+}    
+
+.extrapadding {
+    padding-top: 30px;
+}
     
- }
 
  .item {
     padding: 0px;
@@ -234,12 +250,11 @@ main {
 
 .grid1 {
     display: grid;
-    min-height: 10vh;
+    min-height: 50vh;
     grid-gap: 1em;
     padding: 100px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     position: relative;
-
 
 }
 
