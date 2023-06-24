@@ -317,7 +317,7 @@ main {
 .trailergrid {
     background:black; 
     display: grid; 
-    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
     padding: 40px;
     align-items: center;
     position: flex;
@@ -428,6 +428,10 @@ main {
     text-decoration: solid; 
     text-transform: uppercase;
 
+}
+
+.leftalign {
+    text-align: left;
 }
 
 footer {
