@@ -56,6 +56,8 @@ body {
   
   .backgroundimage {
     width: 100%;
+    display: block; 
+    height: auto; 
   }
   
   nav,
@@ -352,14 +354,12 @@ body {
   }
   
   .trailergrid {
-    background: black;
+    position: relative; 
     display: grid;
-    grid-template-rows: 1fr;
-    padding: 40px;
-    align-items: center;
-    position: flex;
+    grid-template-columns: 1fr;
     width: 100%;
   }
+
   
   .allmoviesgrid {
     background: black;
@@ -422,7 +422,10 @@ body {
       display: relative; 
       flex-direction: grid;
       align-items: center; 
-      padding: 10 30px; 
+      left: 25%; 
+      right: 25%; 
+
+
      
     }
 
@@ -435,6 +438,18 @@ body {
 
 
     }
+
+    .leftalign {
+      position: relative;
+      left: 25%; 
+
+
+    
+    }
+
+   
+
+    
 
   
   
@@ -497,10 +512,12 @@ body {
   
   .playbutton {
     position: absolute;
-    width: 50%;
-    top: 50%;
-    left: 50%;
+    width: 20%; 
+    top: 35%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
+    z-index: 2; 
+
   }
   
   .ordersummary {
