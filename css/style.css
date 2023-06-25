@@ -247,6 +247,8 @@ body {
   .text-link {
     position: relative;
     padding: 40px;
+    text-align: left;
+
   }
 
 
@@ -551,6 +553,15 @@ body {
       left: -100px;
     }
 
+    .below {
+      text-align: center;
+
+    }
+  
+    .text-link {
+      text-align: center;
+    }
+
   
     }
 
@@ -562,15 +573,6 @@ body {
 
     .ordersummary {
       display: flex; 
-    }
-  
-    .below {
-      text-align: center;
-
-    }
-  
-    .text-link {
-      text-align: center;
     }
   
     .aboutgrid {
