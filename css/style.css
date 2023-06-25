@@ -125,6 +125,8 @@ body {
 
   #menu-toggle:checked + label + .menu {
     display: block; 
+
+
   }
   
   @media (min-width: 600px) {
